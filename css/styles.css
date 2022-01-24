@@ -176,7 +176,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.header-icon{
+  width: 20px;
+  height: 20px;
+  color: var(--color-blue);
+}
 .link-header {
   color: var(--accent-color);
 }
@@ -199,8 +203,9 @@ a.link-grey:hover {
 /*--------- HERO --------*/
 
 .section-hero {
-    padding-top: 200px;
-  background-color: #2f303a;
+  padding-top: 200px;
+background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
+), url(F:/Projects/goit-markup-hw-04/images/bg.jpg);
   height: 600px;
   text-align: center;
   align-items: center;
