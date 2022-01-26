@@ -266,10 +266,6 @@ background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
 }
 
 
-.list-features-icon{
-  display: flex;
-  padding-bottom: 30px;
-}
 .features-icon-item{
   background-color: #F5F4FA;
   width: 270px;
@@ -277,10 +273,9 @@ background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
     display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
-.features-icon-item:not(:last-child){
-  margin-right: 30px;
-}
+
 
 /*--------WHAT-WE-DO--------*/
 .what-we-do{
@@ -306,6 +301,7 @@ background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)
 .our-team{
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
 .our-team-list {
   display: flex;
@@ -411,7 +407,7 @@ align-items: center;
 }
 
 .clients-icon{
-  fill: var(--color-grey);
+  fill: #AFB1B8;
 }
 
 .clients-link:hover ,
